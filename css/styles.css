@@ -1,0 +1,431 @@
+body {
+	font-size:16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/** Header **/
+#header-nav {
+	background-color: #F7E244;
+	border-radius: 0;
+	border:0;
+}
+
+#logo-img {
+	background: url('../images/logo-of-shop.png') no-repeat ;
+	width:100px;
+	height: 100px;
+	margin:10px 10px 10px 0;
+}
+
+.navbar-brand {
+	padding-top:15px;
+}
+
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size:1.5em;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #222;
+	margin-top:0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover,.navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-brand p {
+	color: white;
+	margin-top: 10px;
+	text-transform: uppercase;
+	font-size: 1em;
+	text-shadow: 1px 1px 1px #222;
+}
+
+.navbar-brand p span {
+	vertical-align: middle;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+
+#nav-list a {
+	color: #61122f;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+
+#nav-list a span {
+	font-size: 3sem;
+}
+
+#phone {
+    margin-top: 5px;
+}
+
+#phone a {
+	text-align: right;
+	padding-bottom: 0;
+	
+}
+
+#phone div { /*WE DElivered*/
+	color: white;
+	text-align: right;
+	padding-right: 15px;
+}
+
+/* To give the border for menu bar */
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
+
+/* To color space between Mahi Cake Shop And Panchyat */
+.navbar-header button.navbar-toggle {
+	clear:both;
+}
+/*End HEader */
+
+/*Footer*/
+.panel-footer {
+	margin-top:30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top:0;
+}
+
+.panel-footer div.row {
+	margin-top: 10px;
+}
+
+/* To give the height between the text lines */
+#hours, #address,#testimonials {
+	line-height: 1.5;
+
+}
+
+#hours > span, #address > span,#testimonials > span {
+	font-size: 1.2em;
+	font-style: italic;
+} 
+
+#address p {
+	color: #557c3e;
+	font-size: .9em;
+	line-height: 1.8em;
+}
+
+#testimonials {
+	font-style: italic;
+
+}
+#testimonials p:nth-child(2) {
+	margin-top: 20px;
+}
+
+/* End Of Header */
+
+/* Inside Home Page */
+.container .jumbotron {
+	border:2px solid #3F0C1F;
+	box-shadow: 0 0 50px #3F0C1F;
+}
+
+/* The menu special map tags to designed */
+#menu-tile, #specials-tile, #map-tile {
+	margin-bottom: 15px;
+	height:250px;
+	width:100%;
+	position:relative;
+	border: 2px solid white;
+	overflow:hidden;
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile {
+	background: url('../images/menu-tile.jpg') no-repeat;
+	background-position:center;
+}
+
+#specials-tile {
+	background: url('../images/specials-tile.jpg') no-repeat;
+	background-position:center;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+    position: absolute ;
+    right: 0;
+    bottom: 0;
+    width:100%;
+    background-color: black;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+/* End Of Home Page */
+
+/* Menu Categories Page */
+
+.categories-tile {
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 15px;
+}
+
+.categories-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width:100%;
+	text-align: center;
+	background-color: #000;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	color: #fff;
+	opacity: .8;
+}
+
+.categories-tile:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories-title + div {
+	margin-bottom: 20px;
+}
+
+/* ENd of Categories Page */
+
+/* The Sigle Menu Categories page */
+
+.menu-item-tile {
+	margin-bottom: 25px;
+}
+
+.menu-item-tile hr {
+	width:80%;
+}
+
+.menu-item-tile .menu-item-price {
+	font-size: 1.1em;
+	text-align: right;
+	margin-top: -15px;
+	margin-right: -15px;
+}
+
+.menu-item-tile .menu-item-price span {
+	font-size:.6em;
+}
+
+.menu-item-photo {
+	position: relative;
+	border:2px solid #3F0C1F;
+	overflow: hidden;
+	padding: 0;
+	margin-right: -15px;
+	margin-left: auto;
+	margin-bottom: 20px;
+	max-width:200px;
+}
+
+.menu-item-photo div {
+	position: absolute;
+	bottom:0;
+	right:0;
+	width:80px;
+	background-color: #557c3e;
+	text-align: center;
+}
+
+.menu-item-description {
+	padding-right: 30px;
+}
+
+h3.menu-item-title {
+	margin: 0 0 10px;
+}
+
+.menu-item-details {
+	font-size: .9em;
+	font-style: italic;
+
+}
+
+#menu-item-list + div {
+	margin-bottom: 30px;
+}
+
+
+/* The End of Menu Categories page */
+
+@media (min-width:1200px) {
+	.container .jumbotron {
+		background: url('../images/jumbotron_1200.jpg') no-repeat;
+		height:675px;
+	}
+	#copyright {
+    	margin-top: 30px;
+    }
+
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    #logo-img {
+    background: url('../images/logo-of-shop.png') no-repeat;
+	width:95px;
+	height: 95px;
+	margin:5px 5px 5px 0;
+    }
+
+    .container .jumbotron {
+		background: url('../images/jumbotron_992.jpg') no-repeat;
+		height:578px;
+	}
+	#copyright {
+    	margin-top: 30px;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:991px) {
+	.container .jumbotron {
+		background: url('../images/jumbotron_768.jpg') no-repeat;
+		height:415px;
+	}
+	#copyright {
+    	margin-top: 30px;
+    }
+
+}
+
+@media (max-width:767px) {
+	/* Header */
+	.navbar-brand {
+		padding-top: 10px;
+		height: 40px;
+	}
+
+	/* Restaurant Name */
+	.navbar-brand h1 {
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	
+	/* Grampanchayat Certified */
+	.navbar-brand p {
+		font-size: .5em;
+		margin-top:12px;
+	}
+	/* To increase the size of the both test and Glyphicons */
+    #collapsable-nav a {
+	font-size: 1.3em;
+    }
+
+    /* To collapse the two items with same size */
+    #collapsable-nav a span {
+	font-size: 1em;
+	
+    }
+
+    #call-btn {
+	text-align: center;
+	
+    }
+    #call-btn > a {
+	font-size: 1.5em;
+	text-shadow:1px 1px 1px #222;
+	color:#951c49;
+	display:block;
+	background-color: #F7E244;
+	padding:5px 10px 5px 10px;
+	margin:0 10px;
+	border:2px solid #fff;
+    }
+    #xs-deliver {
+	margin-top: 5px;
+	font-size: 1em;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+    }
+    /** End Header **/
+    
+    /* Footer */
+    .panel-footer section {
+    	margin-bottom: 20px;
+    	text-align: center;
+    }
+
+    .panel-footer section:nth-child(3) {
+    	margin-bottom: 0;
+    }
+
+    .panel-footer section hr {
+    	width:50%;
+    }
+
+    /* End Of Footer */
+    #copyright {
+    	margin-top: 30px;
+    }
+
+	.container .jumbotron {
+		padding:0;
+		margin-top: 20px;
+	}
+
+	#menu-tile, #specials-tile {
+		width: 360px;
+		margin: 0 auto 15px;
+	}
+
+	.menu-item-photo {
+		margin-right: auto;
+	}
+
+	.menu-item-tile .menu-item-price {
+		text-align: center;
+	}
+
+	.menu-item-description {
+		text-align: center;
+	}
+
+}
+
+@media (max-width:479px) {
+	#menu-tile, #specials-tile {
+		width:280px;
+		margin:0 auto 15px;
+	}
+
+	.navbar-brand h1 {
+		font-size: 6vw;
+		padding-top:5px;
+	}
+
+	.col-xxs-12 {
+		position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float:left;
+        width:100%;
+	}
+}
+
